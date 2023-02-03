@@ -1,0 +1,23 @@
+.container-content {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-image > img {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.content-title {
+  margin-top: 2%;
+}
+
+.content-text {
+  margin-top: 2%;
+}
+
+.content-text > p {
+  text-align: justify;
+}

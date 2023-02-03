@@ -1,0 +1,17 @@
+.container-menu-bar > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-menu-bar > ul > li {
+  margin-right: 3%;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.container-menu-bar > ul > li > a {
+  text-decoration: none;
+}
