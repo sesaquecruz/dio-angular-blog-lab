@@ -1,0 +1,24 @@
+<div class="container-home">
+  <div class="home-title">
+    <h1>Angular Blog</h1>
+  </div>
+  <div class="home-content">
+    <div class="home-big-card">
+      <app-big-card *ngFor="let card of bigCards"
+      id="{{card.id}}"
+      image="{{card.image}}"
+      title="{{card.title}}"
+      description="{{card.description}}"
+      ></app-big-card>
+    </div>
+    <div class="home-small-card">
+      <app-small-card *ngFor="let card of smallCards"
+      id="{{card.id}}"
+      image="{{card.image}}"
+      author="By {{card.author}}"
+      title="{{card.title}}"
+      >
+      </app-small-card>
+    </div>
+  </div>
+</div>

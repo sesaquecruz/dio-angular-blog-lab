@@ -1,0 +1,11 @@
+<div class="container-big-card">
+  <div class="big-card-image">
+    <img [src]="image">
+  </div>
+  <div class="big-card-title">
+    <a [routerLink]="['content', id]"><h3 [textContent]="title"></h3></a>
+  </div>
+  <div class="big-card-text">
+    <p [textContent]="description"></p>
+  </div>
+</div>

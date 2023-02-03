@@ -1,0 +1,9 @@
+<div class="container-small-card">
+  <div class="small-card-image">
+    <img [src]="image">
+  </div>
+  <div class="small-card-title">
+    <p [textContent]="author"></p>
+    <a [routerLink]="['content', id]"><h4 [textContent]="title"></h4></a>
+  </div>
+</div>
